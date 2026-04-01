@@ -28,7 +28,7 @@ No install step needed. Add the server to your MCP client config and it runs on 
   "mcpServers": {
     "hh-spoak-tools": {
       "command": "npx",
-      "args": ["-y", "hh-spoak-tools"]
+      "args": ["-y", "github:timharding31/hh-spoak-tools"]
     }
   }
 }
@@ -37,7 +37,7 @@ No install step needed. Add the server to your MCP client config and it runs on 
 ### Option B — Install globally
 
 ```bash
-npm install -g hh-spoak-tools
+npm install -g github:timharding31/hh-spoak-tools
 ```
 
 Then configure your MCP client:
@@ -83,7 +83,7 @@ Add the server to `~/.claude/claude_desktop_config.json` (or the equivalent sett
   "mcpServers": {
     "hh-spoak-tools": {
       "command": "npx",
-      "args": ["-y", "hh-spoak-tools"]
+      "args": ["-y", "github:timharding31/hh-spoak-tools"]
     }
   }
 }
